@@ -19,9 +19,9 @@
     justify-content: center;
 }
 
-.container{
+/* .container{
     max-width: 1170px;
-}
+} */
 
 
 /* -------inizio header --------*/
@@ -47,24 +47,48 @@ header .hamburger{
 
 /* ---------- inizio main ----------- */
 
-#demo-app .big-box{
+.big-box{
     height: 800px;
     background-color: red;
 }
 
-#demo-app .box, #demo-app .big-box{
-    margin-top: 30px;
+.container{
     width: 80%;
+    margin: auto;
+}
+
+.box, .big-box{
+    margin-top: 30px;
+    width: 100%;
     margin: 30px auto;
     border-radius: 20px;
 }
 
-#demo-app .box{
+.box{
     height: 600px;
     background-color: red;
 }
 
 
+#planning{
+    background-color: #9792e4;
+    padding-bottom: 30px;
+}
+
+.strategic-planning img{
+    margin: auto;
+    width: 100%;
+}
+
+.strategic-planning h1{
+    color: white;
+    font-size: 4em;
+    padding: 30px 0;
+}
+
+.strategic-planning p{
+    color: white;
+}
 
 
 
