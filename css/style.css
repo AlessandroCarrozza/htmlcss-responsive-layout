@@ -70,6 +70,9 @@ header .hamburger{
 }
 
 
+
+
+
 #planning{
     background-color: #9792e4;
     padding-bottom: 30px;
@@ -90,8 +93,34 @@ header .hamburger{
     color: white;
 }
 
+.big-box.radius{
+    border-radius: 60px;
+}
 
 
+
+
+#testimonials{
+    padding: 20px 0 50px;
+}
+
+#testimonials h4{
+    text-align: center;
+    margin: 50px 0 40px;
+    font-size: 1.5em;
+}
+
+#testimonials h1{
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 50px;
+    color: #9792e4;
+}
+
+#testimonials .big-box.radius {
+    height: 700px;
+    background-color: firebrick;
+}
 
 /* --------- Regole Responsive --------- */
 
