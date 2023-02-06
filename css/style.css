@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* utility */
+
+.flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.container{
+    max-width: 1170px;
+}
+
+
+/* -------inizio header --------*/
+
+header{
+    height: 80px;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+header .logo{
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+}
+
+header .hamburger{
+    width: 15%;
+    background-color: blueviolet;
+}
+
+/* ---------- fine header --------- */
+
+/* ---------- inizio main ----------- */
+
+#demo-app .big-box{
+    height: 800px;
+    background-color: red;
+}
+
+#demo-app .box, #demo-app .big-box{
+    margin-top: 30px;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+#demo-app .box{
+    height: 600px;
+    background-color: red;
+}
+
+
+
+
+
+
+/* --------- Regole Responsive --------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header{
+    height: 80px;
+    background-color: blue;
+}
+
+header .container {
+    background-color: red;
+    height: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo, .header-right, header ul{
+    height: 100%;
+    align-items: center;
+}
+
+header .logo{
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+}
+
+.header-right a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    align-items: center;
+    border: 3px solid black;
+    padding: 0 10px;
+}
+
+.header-right li{
+    list-style-type: none;
+} */
