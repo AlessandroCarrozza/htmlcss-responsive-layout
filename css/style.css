@@ -100,9 +100,6 @@ header .hamburger{
 
 
 
-#testimonials{
-    padding: 20px 0 50px;
-}
 
 #testimonials h4{
     text-align: center;
@@ -120,6 +117,26 @@ header .hamburger{
 #testimonials .big-box.radius {
     height: 700px;
     background-color: firebrick;
+}
+
+
+
+
+#benefits{
+    background-color: #9792e4;
+    padding-top: 50px;
+}
+
+#benefits h1{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#benefits .box{
+    height: 680px;
+    background-color: aquamarine;
 }
 
 /* --------- Regole Responsive --------- */
