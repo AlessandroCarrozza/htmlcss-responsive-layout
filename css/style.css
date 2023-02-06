@@ -124,7 +124,7 @@ header .hamburger{
 
 #benefits{
     background-color: #9792e4;
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 #benefits h1{
@@ -137,6 +137,42 @@ header .hamburger{
 #benefits .box{
     height: 680px;
     background-color: aquamarine;
+}
+
+
+
+
+#about-us{
+    padding: 50px 0;
+}
+
+#about-us h1{
+    color: #9792e4;
+    font-size: 4em;
+}
+
+#about-us p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 20px 0;
+}
+
+#about-us img{
+    border-radius: 50%;
+    width: 60%;
+}
+
+#about-us h3{
+    color: #9792e4;
+    font-size: 3em;
+}
+
+.find-me{
+    display: inline-block;
+    background-color: #9792e4;
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
 }
 
 /* --------- Regole Responsive --------- */
