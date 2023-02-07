@@ -296,6 +296,13 @@ footer p{
 }
 
 @media screen and (min-width: 1200px){
+
+    /* ------ header ------ */
+
+    .container{
+        max-width: 960px;
+    }
+
     .hamburger{
         display: none;
     }
@@ -325,6 +332,60 @@ footer p{
         padding: 0.5rem 1rem;
         border-radius: 50px;
     }
+
+
+    /* -------- main ---------- */
+
+    #demo-app .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #demo-app .big-box, #demo-app .box{
+        height: 320px;
+        margin: 0.7rem 0;
+    }
+
+    #demo-app .box{
+        width: calc(100% / 3);
+    }
+
+    #demo-app .big-box{
+        width: calc((100% /3) * 2);
+    }
+
+
+
+
+
+    .strategic-planning .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .strategic-planning .left-side{
+        width: 48%;
+    }
+
+    .strategic-planning .big-box.radius{
+        width: 48%;
+        height: 600px;
+        align-self: flex-end;
+        margin: 0;
+    }
+
+    .strategic-planning h1{
+        font-size: 2em;
+    }
+
+    .strategic-planning img{
+        padding: 50px 0;
+    }
+
+
+
+
 }
 
 
