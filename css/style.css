@@ -26,6 +26,7 @@
     --secondary-color: #9792E4;
 }
 
+
 /* .container{
     max-width: 1170px;
 } */
@@ -108,12 +109,12 @@ nav{
     padding-bottom: 1rem;
 }
 
-.mini-container h1{
+#demo-app .mini-container h1{
     color: var(--primary-color);
     font-size: 2em;
 }
 
-.mini-container p{
+#demo-app .mini-container p{
     line-height: 1.8em;
     margin: 30px 0;
     font-weight: 500;
@@ -159,23 +160,61 @@ nav{
     width: 100%;
 }
 
-.strategic-planning h1{
+#planning .left-side h1{
     color: white;
-    font-size: 4em;
+    font-size: 3em;
     padding: 1.9rem 0;
 }
 
-.strategic-planning p{
+.strategic-planning .left-side p{
     color: white;
 }
 
 .big-box.radius{
     border-radius: 60px;
+    background-color: white;
+}
+
+.big-box.radius h1{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#planning .big-box.radius p{
+    text-align: center;
+    margin: 1rem 0;
+    font-style: italic;
+    line-height: 1.7rem;
+}
+
+.circle-arrow{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    position: relative;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 1rem 0;
+}
+
+.circle-arrow i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
 }
 
 
 
 
+
+#testimonials{
+    padding-bottom: 4rem;
+}
 
 #testimonials h4{
     text-align: center;
@@ -186,19 +225,44 @@ nav{
 
 #testimonials h1{
     text-align: center;
-    font-size: 4em;
+    font-size: 3.2em;
     margin-bottom: 3.1rem;
     color: #9792e4;
 }
 
 #testimonials .big-box.radius {
-    height: 700px;
-    background-color: firebrick;
+    padding: 1rem 0;
+    background-color: var(--secondary-color);
 }
 
-#testimonials p{
+#testimonials .big-box.radius .mini-container{
+    padding: 0 -3rem;
+    background-color: var(--secondary-color);
+}
+
+#testimonials *{
     text-align: center;
 }
+
+#testimonials .big-box.radius img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#testimonials .big-box.radius p{
+    color: white;
+    line-height: 2rem;
+    padding: 1rem 0;
+}
+
+#testimonials .big-box.radius h2{
+    color: white;
+    padding: 1rem 0;
+}
+
+
 
 
 
@@ -210,14 +274,37 @@ nav{
 
 #benefits h1{
     color: white;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     margin-bottom: 1.25rem;
 }
 
 #benefits .box{
-    height: 680px;
-    background-color: aquamarine;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+
+.number{
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    padding: 1rem 0;
+}
+
+#benefits h2{
+    color: var(--secondary-color);
+}
+
+#benefits p{
+    line-height: 1.6rem;
+    padding: 2rem 0 3rem;
+}
+
+.more-button{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.6rem 3rem;
+    border-radius: 50px;
 }
 
 
@@ -245,13 +332,14 @@ nav{
 
 #about-us h3{
     color: var(--secondary-color);
-    font-size: 3em;
+    font-size: 2.5em;
+    padding: 1rem 0;
 }
 
 .find-me{
     display: inline-block;
     background-color: var(--secondary-color);
-    padding: 0.4rem;
+    padding: 0.6rem 1rem;
     color: white;
     border-radius: 20px;
 }
@@ -260,7 +348,6 @@ nav{
 
 
 #get-started{
-    height: 800px;
     background-color: var(--secondary-color);
     padding: 4.4rem 0;
 }
@@ -273,6 +360,7 @@ nav{
     margin: 1.25rem 0;
     font-size: 1.5em;
     color: white;
+    font-weight: 300;
 }
 
 #get-started h2{
@@ -287,23 +375,26 @@ nav{
 }
 
 #get-started p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: white;
     line-height: 1.5em;
-    margin-bottom: 3.1rem;
 }
 
 .get-started-btn{
     font-size: 2em;
     color: var(--secondary-color);
     background-color: white;
-    padding: 1.25rem 3.1rem;
+    padding: 1rem 3.5rem;
     border-radius: 50px;
+    margin: 2rem 0;
+}
+
+.get-started-container{
+    padding: 3rem 0;
 }
 
 .privacy-policy{
     color: white;
-    margin: 3.1rem 0;
     font-size: 1.2em;
 }
 
@@ -312,7 +403,6 @@ nav{
 /* -------- inizio footer ------ */
 
 footer{
-    height: 300px;
     background-color: black;
     padding: 2.5rem 0;
 }
@@ -328,6 +418,10 @@ footer p{
 .final-text{
     color: white;
     padding: 4.4rem 0;
+}
+
+.final-text a{
+    color: var(--secondary-color);
 }
 
 /* ---------- fine footer -------- */
@@ -368,8 +462,40 @@ footer p{
 
     #testimonials .big-box.radius{
         font-size: 2.2em;
-        height: 300px;
+        /* height: 300px; */
     }
+
+    #testimonials .mini-container{
+        display: flex;
+    }
+
+    #testimonials .mini-container img{
+        width: 100px;
+        height: 100px;
+    }
+
+    #testimonials .right-side p{
+        font-size: 1.5rem;
+    }
+
+    #testimonials .big-box.radius h2{
+        color: white;
+        padding: 0.5rem 0;
+        font-size: 1rem;
+    }
+
+    #testimonials .left-side{
+        width: 30%;
+    }
+
+    #testimonials .left-side img{
+        width: 100%;
+    }
+
+    #testimonials .right-side{
+        width: 70%;
+    }
+
 
 
 
@@ -382,7 +508,7 @@ footer p{
 
     #benefits .box{
         margin: 0.8rem;
-        height: 380px;
+        /* height: 380px; */
         width: calc(100% / 2 - 1.6rem);
     }
 
@@ -390,6 +516,8 @@ footer p{
     #benefits h1{
         font-size: 2em;
     }
+
+    
 
 
 
