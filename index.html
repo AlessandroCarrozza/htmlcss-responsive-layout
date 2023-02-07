@@ -6,13 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Layout</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
     <!-- inizio header -->
-    <header class="flex">
-        <div class="logo"></div>
+    <header>
+        <div class="container flex">
+            <div class="logo flex">
+                <img src="img/logo.png" alt="Logo">
+            </div>
         
-        <div class="hamburger"></div>
+            <div class="hamburger flex">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <nav>
+                <ul class="flex">
+                    <li>
+                        <a href="#">Planning</a>
+                    </li>
+    
+                    <li>
+                        <a href="#">Testimonials</a>
+                    </li>
+    
+                    <li>
+                        <a href="#">Features</a>
+                    </li>
+    
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="get-started btn">Get Started</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!-- fine header -->
 
@@ -51,7 +85,7 @@
 
         <section id="testimonials">
             <div class="container">
-                <h4>TESIMONIALS</h4>
+                <h4>TESTIMONIALS</h4>
 
                 <h1>We are committed expert partners</h1>
 
@@ -97,10 +131,32 @@
                 <span class="find-me">Find me on linkedin</span>
             </div>
         </section>
+
+        <section id="get-started">
+            <div class="container">
+                <h3>GET STARTED</h3>
+                <h2>Simple, Tansparent Pricing</h2>
+                <h1>It's Free!</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus quae rem aperiam fuga? Beatae earum, nisi adipisci ea commodi aut perferendis esse quas ratione maxime ad fuga expedita error!à</p>
+          
+                <span class="get-started-btn">Get Started</span>
+
+                <div class="privacy-policy">Copyright 2023 Boolean - Classe 87 - Privacy policy</div>
+            </div>
+
+        </section>
     </main>
     <!-- fine main -->
 
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat vero corporis temporibus pariatur fuga, alias error optio, magnam ex aut quis eaque facilis provident necessitatibus adipisci quibusdam beatae ab!</p>
+       
+            <div class="final-text"><span>Lorem Ipsum</span> scelerisque mauris pellentesque <span>Boolean Careers</span> </div>
+        </div>
+   
+    </footer>
 </body>
 </html>
 

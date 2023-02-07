@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -19,6 +20,12 @@
     justify-content: center;
 }
 
+:root {
+    --primary-color: #0084fd;
+    --primary-light-color: #b5ddff;
+    --secondary-color: #9792E4;
+}
+
 /* .container{
     max-width: 1170px;
 } */
@@ -28,19 +35,37 @@
 
 header{
     height: 80px;
-    justify-content: space-between;
-    background-color: blue;
+    background-color: var(--primary-color);
 }
 
 header .logo{
-    width: 25%;
+    /* width: 150px; */
     height: 100%;
-    background-color: aqua;
+    align-items: center;
 }
 
-header .hamburger{
-    width: 15%;
-    background-color: blueviolet;
+header .logo img{
+    height: 60%;
+}
+
+.hamburger{
+    width: 80px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hamburger i{
+    font-size: 35px;
+    color: white;
+}
+
+header .container{
+    height: 100%;
+    justify-content: space-between;
+}
+
+nav{
+    display: none;
 }
 
 /* ---------- fine header --------- */
@@ -58,9 +83,8 @@ header .hamburger{
 }
 
 .box, .big-box{
-    margin-top: 30px;
     width: 100%;
-    margin: 30px auto;
+    margin: 1.9rem auto;
     border-radius: 20px;
 }
 
@@ -72,10 +96,17 @@ header .hamburger{
 
 
 
+#demo-app{
+    padding: 2.5rem 0 4.4rem;
+}
+
+
+
+
 
 #planning{
-    background-color: #9792e4;
-    padding-bottom: 30px;
+    background-color: var(--secondary-color);
+    padding: 4.4rem 0;
 }
 
 .strategic-planning img{
@@ -86,7 +117,7 @@ header .hamburger{
 .strategic-planning h1{
     color: white;
     font-size: 4em;
-    padding: 30px 0;
+    padding: 1.9rem 0;
 }
 
 .strategic-planning p{
@@ -103,14 +134,14 @@ header .hamburger{
 
 #testimonials h4{
     text-align: center;
-    margin: 50px 0 40px;
+    margin: 4.4rem 0 1.9rem;
     font-size: 1.5em;
 }
 
 #testimonials h1{
     text-align: center;
     font-size: 4em;
-    margin-bottom: 50px;
+    margin-bottom: 3.1rem;
     color: #9792e4;
 }
 
@@ -123,15 +154,15 @@ header .hamburger{
 
 
 #benefits{
-    background-color: #9792e4;
-    padding: 50px 0;
+    background-color: var(--secondary-color);
+    padding: 3.1rem 0;
 }
 
 #benefits h1{
     color: white;
     font-size: 4em;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 #benefits .box{
@@ -143,18 +174,18 @@ header .hamburger{
 
 
 #about-us{
-    padding: 50px 0;
+    padding: 3.1rem 0;
 }
 
 #about-us h1{
-    color: #9792e4;
+    color: var(--secondary-color);
     font-size: 4em;
 }
 
 #about-us p{
     font-size: 1.2em;
     line-height: 1.5em;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 
 #about-us img{
@@ -163,21 +194,138 @@ header .hamburger{
 }
 
 #about-us h3{
-    color: #9792e4;
+    color: var(--secondary-color);
     font-size: 3em;
 }
 
 .find-me{
     display: inline-block;
-    background-color: #9792e4;
-    padding: 7px;
+    background-color: var(--secondary-color);
+    padding: 0.4rem;
     color: white;
     border-radius: 20px;
 }
 
+
+
+
+#get-started{
+    height: 800px;
+    background-color: var(--secondary-color);
+    padding: 4.4rem 0;
+}
+
+#get-started *{
+    text-align: center;
+}
+
+#get-started h3{
+    margin: 1.25rem 0;
+    font-size: 1.5em;
+    color: white;
+}
+
+#get-started h2{
+    margin-bottom: 1.9rem;
+    font-size: 3.5em;
+    color: white;
+}
+
+#get-started h1{
+    font-size: 6em;
+    color: orange;
+}
+
+#get-started p{
+    font-size: 1.5em;
+    color: white;
+    line-height: 1.5em;
+    margin-bottom: 3.1rem;
+}
+
+.get-started-btn{
+    font-size: 2em;
+    color: var(--secondary-color);
+    background-color: white;
+    padding: 1.25rem 3.1rem;
+    border-radius: 50px;
+}
+
+.privacy-policy{
+    color: white;
+    margin: 3.1rem 0;
+    font-size: 1.2em;
+}
+
+
+
+/* -------- inizio footer ------ */
+
+footer{
+    height: 300px;
+    background-color: black;
+    padding: 2.5rem 0;
+}
+
+footer *{
+    text-align: center;
+}
+
+footer p{
+    color: white;
+}
+
+.final-text{
+    color: white;
+    padding: 4.4rem 0;
+}
+
+/* ---------- fine footer -------- */
+
+
+
+
 /* --------- Regole Responsive --------- */
 
+@media screen and (min-width: 768px){
 
+}
+
+@media screen and (min-width: 992px){
+    
+}
+
+@media screen and (min-width: 1200px){
+    .hamburger{
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
+
+    nav ul{
+        height: 100%;
+        align-items: center;
+    }
+
+    nav li{
+        list-style-type: none;
+        margin-left: 1.5rem;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+    }
+
+    nav .get-started.btn{
+        color: black;
+        background-color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 50px;
+    }
+}
 
 
 
