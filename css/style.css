@@ -247,8 +247,8 @@ section{
 }
 
 #testimonials .big-box.radius img{
-    max-width: 300px;
-    max-height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%; 
     object-fit: cover;
 }
@@ -453,6 +453,7 @@ footer p{
     #demo-app .big-box{
         width: calc((100% /3) * 2 - 0.4rem);
     }
+
 
 
 
@@ -664,6 +665,17 @@ footer p{
 
     .strategic-planning img{
         padding: 50px 0;
+    }
+
+    #planning .big-box.radius{
+        align-items: flex-end;
+    }
+
+    #planning .big-box.radius img{
+        max-width: 250px;
+        padding: 0;
+        text-align: center;
+        display: block;
     }
     
 
