@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 /* utility */
 
-.flex{
+.flex {
     display: flex;
 }
 
@@ -23,7 +23,7 @@
 
 /* -------inizio header --------*/
 
-header{
+header {
     height: 100px;
     background-color: var(--primary-color);
     position: fixed;
@@ -33,37 +33,37 @@ header{
     width: 100%;
 }
 
-header .logo{
+header .logo {
     /* width: 150px; */
     height: 100%;
     align-items: center;
 }
 
-header .logo img{
+header .logo img {
     height: 50px;
 }
 
-.hamburger{
+.hamburger {
     width: 80px;
     align-items: center;
     justify-content: flex-end;
 }
 
-.hamburger i{
+.hamburger i {
     font-size: 40px;
     color: white;
 }
 
-header .container{
+header .container {
     height: 100%;
     justify-content: space-between;
 }
 
-nav{
+nav {
     display: none;
 }
 
-nav li{
+nav li {
     font-size: 0.95rem;
 }
 
@@ -72,126 +72,127 @@ nav li{
 
 /* ---------- inizio main ----------- */
 
-main{
+main {
     margin-top: 100px;
 }
 
-section{
+section {
     scroll-margin-top: 100px;
 }
 
-.big-box{
+.big-box {
     background-color: var(--primary-light-color);
 }
 
-.container{
+.container {
     width: 80%;
     margin: auto;
 }
 
-.box, .big-box{
+.box,
+.big-box {
     width: 100%;
     margin: 1.9rem auto;
     border-radius: 20px;
 }
 
-.box{
+.box {
     background-color: var(--primary-light-color);
 }
 
 
-#demo-app{
+#demo-app {
     padding: 2.5rem 0 4.4rem;
 }
 
-.mini-container{
+.mini-container {
     padding-top: 30px;
     margin: auto;
     width: 85%;
 }
 
-.box .mini-container{
+.box .mini-container {
     padding-bottom: 1rem;
 }
 
-#demo-app .mini-container h1{
+#demo-app .mini-container h1 {
     color: var(--primary-color);
     font-size: 2em;
 }
 
-#demo-app .mini-container p{
+#demo-app .mini-container p {
     line-height: 1.8em;
     margin: 30px 0;
     font-weight: 500;
 }
 
-.app-store.btn{
+.app-store.btn {
     background-color: var(--primary-color);
     color: white;
     padding: 10px 50px;
     border-radius: 50px;
 }
 
-.app-store.btn i{
+.app-store.btn i {
     margin-right: 0.7rem;
 }
 
-.iphone-img img{
+.iphone-img img {
     width: 90%;
     display: block;
     margin: auto;
     padding-top: 4rem;
 }
 
-#demo-app .box *{
+#demo-app .box * {
     text-align: center;
 }
 
-#demo-app .box i{
+#demo-app .box i {
     font-size: 5rem;
     color: var(--primary-color);
     margin-bottom: 2rem;
 }
 
 
-#planning{
+#planning {
     background-color: var(--secondary-color);
     padding: 4.4rem 0;
 }
 
-.strategic-planning img{
+.strategic-planning img {
     margin: auto;
     width: 100%;
 }
 
-#planning .left-side h1{
+#planning .left-side h1 {
     color: white;
     font-size: 3em;
     padding: 1.9rem 0;
 }
 
-.strategic-planning .left-side p{
+.strategic-planning .left-side p {
     color: white;
 }
 
-.big-box.radius{
+.big-box.radius {
     border-radius: 60px;
     background-color: white;
 }
 
-.big-box.radius h1{
+.big-box.radius h1 {
     text-align: center;
     margin: 1rem 0;
 }
 
-#planning .big-box.radius p{
+#planning .big-box.radius p {
     text-align: center;
     margin: 1rem 0;
     font-style: italic;
     line-height: 1.7rem;
 }
 
-.circle-arrow{
+.circle-arrow {
     width: 60px;
     height: 60px;
     display: inline-block;
@@ -204,7 +205,7 @@ section{
     margin: 1rem 0;
 }
 
-.circle-arrow i{
+.circle-arrow i {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -214,18 +215,18 @@ section{
 }
 
 
-#testimonials{
+#testimonials {
     padding-bottom: 4rem;
 }
 
-#testimonials h4{
+#testimonials h4 {
     text-align: center;
     margin: 4.4rem 0 1.9rem;
     font-size: 1.5em;
     font-weight: 400;
 }
 
-#testimonials h1{
+#testimonials h1 {
     text-align: center;
     font-size: 3.2em;
     margin-bottom: 3.1rem;
@@ -237,70 +238,70 @@ section{
     background-color: var(--secondary-color);
 }
 
-#testimonials .big-box.radius .mini-container{
+#testimonials .big-box.radius .mini-container {
     padding: 0 -3rem;
     background-color: var(--secondary-color);
 }
 
-#testimonials *{
+#testimonials * {
     text-align: center;
 }
 
-#testimonials .big-box.radius img{
+#testimonials .big-box.radius img {
     width: 200px;
     height: 200px;
-    border-radius: 50%; 
+    border-radius: 50%;
     object-fit: cover;
 }
 
 
-#testimonials .big-box.radius p{
+#testimonials .big-box.radius p {
     color: white;
     line-height: 2rem;
     padding: 1rem 0;
 }
 
-#testimonials .big-box.radius h2{
+#testimonials .big-box.radius h2 {
     color: white;
     padding: 1rem 0;
 }
 
 
 
-#benefits{
+#benefits {
     background-color: var(--secondary-color);
     padding: 3.1rem 0;
 }
 
-#benefits h1{
+#benefits h1 {
     color: white;
     font-size: 3em;
     text-align: center;
     margin-bottom: 1.25rem;
 }
 
-#benefits .box{
+#benefits .box {
     background-color: white;
     padding-bottom: 2rem;
 }
 
-.number{
+.number {
     font-size: 4rem;
     font-weight: 500;
     color: var(--secondary-color);
     padding: 1rem 0;
 }
 
-#benefits h2{
+#benefits h2 {
     color: var(--secondary-color);
 }
 
-#benefits p{
+#benefits p {
     line-height: 1.6rem;
     padding: 2rem 0 3rem;
 }
 
-.more-button{
+.more-button {
     background-color: var(--secondary-color);
     color: white;
     padding: 0.6rem 3rem;
@@ -308,33 +309,33 @@ section{
 }
 
 
-#about-us{
+#about-us {
     padding: 3.1rem 0;
 }
 
-#about-us h1{
+#about-us h1 {
     color: var(--secondary-color);
     font-size: 4em;
 }
 
-#about-us p{
+#about-us p {
     font-size: 1.2em;
     line-height: 1.5em;
     padding: 1.25rem 0;
 }
 
-#about-us img{
+#about-us img {
     border-radius: 50%;
     width: 60%;
 }
 
-#about-us h3{
+#about-us h3 {
     color: var(--secondary-color);
     font-size: 2.5em;
     padding: 1rem 0;
 }
 
-#about-us .right-side .fa-quote-left{
+#about-us .right-side .fa-quote-left {
     color: var(--secondary-color);
     font-size: 6rem;
     position: relative;
@@ -342,7 +343,7 @@ section{
     right: 5rem;
 }
 
-.find-me{
+.find-me {
     display: inline-block;
     background-color: var(--secondary-color);
     padding: 0.6rem 1rem;
@@ -351,40 +352,40 @@ section{
 }
 
 
-#get-started{
+#get-started {
     background-color: var(--secondary-color);
     padding: 4.4rem 0;
 }
 
-#get-started *{
+#get-started * {
     text-align: center;
 }
 
-#get-started h3{
+#get-started h3 {
     margin: 1.25rem 0;
     font-size: 1.5em;
     color: white;
     font-weight: 300;
 }
 
-#get-started h2{
+#get-started h2 {
     margin-bottom: 1.9rem;
     font-size: 3.5em;
     color: white;
 }
 
-#get-started h1{
+#get-started h1 {
     font-size: 6em;
     color: orange;
 }
 
-#get-started p{
+#get-started p {
     font-size: 1.2em;
     color: white;
     line-height: 1.5em;
 }
 
-.get-started-btn{
+.get-started-btn {
     font-size: 2em;
     color: var(--secondary-color);
     background-color: white;
@@ -393,38 +394,39 @@ section{
     margin: 2rem 0;
 }
 
-.get-started-container{
+.get-started-container {
     padding: 3rem 0;
 }
 
-.privacy-policy{
+.privacy-policy {
     color: white;
     font-size: 1.2em;
 }
+
 /* ---------- inizio main ----------- */
 
 
 /* -------- inizio footer ------ */
 
-footer{
+footer {
     background-color: black;
     padding: 2.5rem 0;
 }
 
-footer *{
+footer * {
     text-align: center;
 }
 
-footer p{
+footer p {
     color: white;
 }
 
-.final-text{
+.final-text {
     color: white;
     padding: 4.4rem 0;
 }
 
-.final-text a{
+.final-text a {
     color: var(--secondary-color);
 }
 
@@ -435,109 +437,114 @@ footer p{
 
 /* --------- Regole Responsive --------- */
 
-@media screen and (min-width: 992px){
-    #demo-app .container{
+@media screen and (min-width: 992px) {
+    #demo-app .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    #demo-app .big-box, #demo-app .box{
+    #demo-app .big-box,
+    #demo-app .box {
         margin: 0.5rem 0;
     }
 
-    #demo-app .box{
+    #demo-app .box {
         width: calc(100% / 3 - 0.7rem);
     }
 
-    #demo-app .big-box{
+    #demo-app .big-box {
         width: calc((100% /3) * 2 - 0.4rem);
     }
 
 
-
-
-    #testimonials h1{
+    #testimonials h4 {
+        font-weight: 700;
         font-size: 2.2em;
     }
 
-    #testimonials .big-box.radius{
+    #testimonials h1 {
         font-size: 2.2em;
     }
 
-    #testimonials .mini-container{
+    #testimonials .big-box.radius {
+        font-size: 2.2em;
+    }
+
+    #testimonials .mini-container {
         display: flex;
+        width: 95%;
     }
 
-    #testimonials .mini-container img{
+    #testimonials .mini-container img {
         width: 100px;
         height: 100px;
     }
 
-    #testimonials .right-side p{
+    #testimonials .right-side p {
         font-size: 1rem;
     }
 
-    #testimonials .big-box.radius h2{
+    #testimonials .big-box.radius h2 {
         color: white;
         /* padding: 0.5rem 0; */
         font-size: 1rem;
     }
 
-    #testimonials .left-side{
+    #testimonials .left-side {
         width: 30%;
     }
 
-    #testimonials .left-side img{
+    #testimonials .left-side img {
         width: 200px;
         height: 200px;
     }
 
-    #testimonials .right-side{
+    #testimonials .right-side {
         width: 70%;
     }
 
 
 
-    #benefits .container{
+    #benefits .container {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
 
-    #benefits .box{
+    #benefits .box {
         margin: 0.8rem;
         /* height: 380px; */
         width: calc(100% / 2 - 1.6rem);
     }
 
 
-    #benefits h1{
+    #benefits h1 {
         font-size: 2em;
     }
 
-    
 
-    #about-us .container{
+
+    #about-us .container {
         display: flex;
         justify-content: space-between;
     }
 
-    #about-us .left-side{
+    #about-us .left-side {
         width: 58%;
     }
 
-    #about-us .right-side{
+    #about-us .right-side {
         width: 38%;
     }
 
-    #about-us h3{
+    #about-us h3 {
         line-height: 1.2em;
         font-size: 2.2em;
         margin: 1.5rem 0;
     }
 
-    #about-us .right-side .fa-quote-left{
+    #about-us .right-side .fa-quote-left {
         color: var(--secondary-color);
         font-size: 5rem;
         position: relative;
@@ -547,15 +554,15 @@ footer p{
 
 
 
-    #get-started .container{
+    #get-started .container {
         max-width: 600px;
     }
 
-    #get-started h2{
+    #get-started h2 {
         font-size: 2.5em;
     }
 
-    #get-started h3{
+    #get-started h3 {
         font-weight: 300;
     }
 
@@ -565,38 +572,38 @@ footer p{
 
 
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 
     /* ------ header ------ */
 
-    .container{
+    .container {
         max-width: 960px;
     }
 
-    .hamburger{
+    .hamburger {
         display: none;
     }
 
-    nav{
+    nav {
         display: block;
     }
 
-    nav ul{
+    nav ul {
         height: 100%;
         align-items: center;
     }
 
-    nav li{
+    nav li {
         list-style-type: none;
         margin-left: 1.5rem;
     }
 
-    nav a{
+    nav a {
         color: white;
         text-decoration: none;
     }
 
-    nav .get-started.btn{
+    nav .get-started.btn {
         color: black;
         background-color: white;
         padding: 0.5rem 1rem;
@@ -606,120 +613,121 @@ footer p{
 
     /* -------- main ---------- */
 
-    #demo-app .container{
+    #demo-app .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    #demo-app .big-box, #demo-app .box{
+    #demo-app .big-box,
+    #demo-app .box {
         margin: 0.5rem 0;
     }
 
-    #demo-app .box{
+    #demo-app .box {
         width: calc(100% / 3 - 0.7rem);
     }
 
-    #demo-app .big-box{
+    #demo-app .big-box {
         width: calc((100% /3) * 2 - 0.4rem);
         position: relative;
     }
 
-    #demo-app .mini-container.big{
+    #demo-app .mini-container.big {
         display: flex;
     }
 
-    #demo-app .iphone-img img{
+    #demo-app .iphone-img img {
         position: absolute;
         bottom: 0;
         width: 300px;
     }
 
-    #demo-app .big-box .left-side{
+    #demo-app .big-box .left-side {
         width: 50%;
     }
 
-    #demo-app .big-box .iphone-img{
+    #demo-app .big-box .iphone-img {
         width: 40%;
     }
 
 
-    .strategic-planning .container{
+    .strategic-planning .container {
         display: flex;
         justify-content: space-between;
     }
 
-    .strategic-planning .left-side{
+    .strategic-planning .left-side {
         width: 48%;
     }
 
-    .strategic-planning .big-box.radius{
+    .strategic-planning .big-box.radius {
         width: 48%;
         align-self: flex-end;
         margin: 0;
     }
 
-    .strategic-planning h1{
+    .strategic-planning h1 {
         font-size: 2em;
     }
 
-    .strategic-planning img{
+    .strategic-planning img {
         padding: 50px 0;
     }
 
-    #planning .big-box.radius{
+    #planning .big-box.radius {
         align-items: flex-end;
     }
 
-    #planning .big-box.radius img{
+    #planning .big-box.radius img {
         max-width: 250px;
         padding: 0;
         text-align: center;
         display: block;
     }
-    
 
-    #testimonials h1{
+
+    #testimonials h1 {
         font-size: 2.2em;
     }
 
-    #testimonials .big-box.radius{
+    #testimonials .big-box.radius {
         font-size: 2.2em;
         height: 300px;
     }
 
 
-    #benefits .container{
+    #benefits .container {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
 
-    #benefits .box{
+    #benefits .box {
         margin: 0.8rem;
         width: calc(100% / 3 - 1.6rem);
     }
 
 
-    #benefits h1{
+    #benefits h1 {
         font-size: 2em;
     }
 
 
-    #about-us .container{
+    #about-us .container {
         display: flex;
         justify-content: space-between;
     }
 
-    #about-us .left-side{
+    #about-us .left-side {
         width: 58%;
     }
 
-    #about-us .right-side{
+    #about-us .right-side {
         width: 38%;
     }
 
-    #about-us h3{
+    #about-us h3 {
         line-height: 1.2em;
         font-size: 2.2em;
         margin: 1.5rem 0;
@@ -727,17 +735,16 @@ footer p{
 
 
 
-    #get-started .container{
+    #get-started .container {
         max-width: 600px;
     }
 
-    #get-started h2{
+    #get-started h2 {
         font-size: 2.5em;
     }
 
-    #get-started h3{
+    #get-started h3 {
         font-weight: 300;
     }
 
 }
-
